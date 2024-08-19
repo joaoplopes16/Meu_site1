@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Handlee&family=Share+Tech+Mono&display=swap');
+ 
+
+body{
+    background-image: linear-gradient(to bottom, #FEDBF1,#964577,#5F0B3F);
+    margin: 0;
+}
+header{
+    background-color: #FEDBF1;
+    border-radius: 0px 0px 65px 65px;
+    box-shadow: 0px 0px 10px #5c0239;
+    
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+    background-color: #FEDBF1;
+    padding: 15px;
+    border-radius: 0px 0px 100px 100px;
+    
+    
+}
+nav > a{
+    margin-left: 17px;
+    text-decoration: none;
+    font-family: 'Dancing Script';
+    font-size: 1.3em;
+    color: black;
+    padding-right: 15px;
+    
+}
+nav > a:hover{
+    background-color: #ee76c2;
+    padding: 2px;
+    border-radius: 17%;
+    transition-duration: .2s;
+}
+article {
+    background-color: #964577;
+    margin-top: 10px;
+    padding-right: auto; 
+    padding-top: 20px;
+    padding-bottom: 250px;
+    border-radius: 0px 0px 150px 0px;
+    width: 100%;
+    height: 200px;
+}
+article > h1{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: #5c0239;
+}
+article > p{
+   
+    padding-left: 20px;
+    padding-right: 200px;
+    font-family:'Dancing Script';
+    font-size: 22px;
+    width: 200px;  
+}
+
+main div{
+    margin-top: 0;
+    padding: 80px;
+}
+.container{
+    text-align: center;
+    
+}
+.container > img{
+    border-radius: 10%;
+}
+
+div > a{
+    padding: 17px;
+    border-radius: 35%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    background-color: #ee76c2;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    
+    
+    
+      
+}
+div > a:hover{
+    background-color: #ee63bb;
+}
+
+footer{
+    background-color: #eb3cab1a;
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script';
+    padding: 1px;
+}
+
+    
+
